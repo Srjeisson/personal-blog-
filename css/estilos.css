@@ -12,9 +12,10 @@ body{
 .header{
   width: 100%;
   background-color:#151515;
-  padding: 15px;
+  padding: 10px 0px;
   position:sticky ;
   top: 0;
+  box-sizing: border-box;
 }
 
 .head-wrap{
@@ -50,6 +51,21 @@ body{
 
 .page-name{
   font-size: 20px;
+}
+
+input{
+  padding: 5px 10px;
+  background-color: transparent;
+  color: #fff;
+  border-radius: 5px ;
+  border: 1px solid #fff;
+}
+
+input:hover{
+  background-color: #fff;
+  color: #000;
+  border: #fff;
+  cursor: pointer;
 }
 
 .contenedor{
@@ -109,8 +125,9 @@ body{
 .footer{
   width: 100%;
   background-color:#151515;
-  padding: 15px;
+  padding: 10px 0px;
   position:sticky ;
+  box-sizing: border-box;
 }
 
 .footer-wrap{
