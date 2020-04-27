@@ -154,15 +154,23 @@ input:hover{
   .contenedor{
     width: 70%;
   }
+  .head-wrap{
+    width: 85%;
+  }
+  .footer-wrap{
+    width: 85%;
+  }
 }
 @media screen and (max-width:1000px){
   .contenedor{
     width: 80%;
   }
   .head-wrap{
-    width: 80%;
+    width: 87%;
   }
-  
+  .header{
+    position: initial;
+  }  
 }
 
 @media screen and (max-width:800px){
@@ -186,8 +194,18 @@ input:hover{
   } 
   .page-name{
     align-self: start;
-    padding-left: 40px;
-  }     
+    padding-left: 30px;
+  }   
+  input{
+    box-sizing: border-box;
+    margin-right: 10px;
+  }
+  .footer-wrap{
+    width: 90%;
+  }
+  .list-menu{
+    padding-left:6% ;
+  }
 }
 
 @media screen and (max-width:700px){
@@ -203,7 +221,18 @@ input:hover{
   .small, .all-description{
     font-size: 17px;
   }
-  
+  .page-name{
+    padding-left: 20px;
+  }
+  .list-menu{
+    padding-left: 1%;
+  }
+  input{
+    margin-right:-3px ;
+  }
+  .footer-wrap{
+    width: 93%;
+  }
 }
 @media screen and (max-width:500px){
   
@@ -213,13 +242,17 @@ input:hover{
   .small, .all-description{
     font-size: 15px;
   }
+  .page-name{
+    padding-left: 15px;
+  }
+  .footer-wrap{
+    width: 95%;
+  }
 }
 @media screen and (max-width:400px){
   
   .menu-wrap{
-    flex-direction:column;
-    justify-content: center;
-    align-items: center;
+    display: none;
   }
   input{
     margin-top: 20px;
@@ -240,7 +273,4 @@ input:hover{
   .small{
     margin-bottom: -20px;
   }
-}
-@media screen and (max-width:300px){
-  
 }
