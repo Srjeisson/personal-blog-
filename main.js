@@ -1,8 +1,5 @@
-// sidebar toggle
-const btnToggle = document.querySelector('.toggle-btn');
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
 
-btnToggle.addEventListener('click', function () {
-  console.log('clik')
-  document.getElementById('sidebar').classList.toggle('active');
-  console.log(document.getElementById('sidebar'))
-});
